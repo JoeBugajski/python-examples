@@ -7,7 +7,7 @@ print(type(x))
 
 # you can iterate through a collection and check the type
 # of each item
-y = ( 1, 'two', 3.0, [4, 'four'], 5 )
+y = [ 1, 'two', 3.0, [4, 'four'], 5 ]
 print('y is {}'.format(y))
 print(type(y))
 for i in y:
@@ -42,6 +42,13 @@ else:
 if isinstance(x, tuple):
     print('tuple')
 elif isinstance(x, list):
+    print('list')
+else:
+    print('nope')
+
+if isinstance(y, tuple):
+    print('tuple')
+elif isinstance(y, list):
     print('list')
 else:
     print('nope')
