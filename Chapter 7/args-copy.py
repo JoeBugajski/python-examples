@@ -12,3 +12,7 @@ def kitten(*args): # It's denoted as *args. args is the conventional name
     else: print('Meow.') # otherwise print meow
 
 if __name__ == '__main__': main()
+
+# You can call the kitten function like this:
+x = ('hiss', 'howl', 'roar', 'screech')
+kitten(*x) # note the star
